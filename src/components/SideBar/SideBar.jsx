@@ -17,7 +17,6 @@ function SideBar() {
         <ul className="sidebar-links">
           <li>
             <NavLink
-              exact
               to="/"
               className={({ isActive }) => (isActive ? "active-link" : "")}
             >
