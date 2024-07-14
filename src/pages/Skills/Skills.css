@@ -1,0 +1,160 @@
+.skills {
+  padding-left: 15% !important;
+  padding-right: 15% !important;
+}
+
+.skills .subheading {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-family: Quicksand, sans-serif;
+}
+
+.skills .heading {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+  margin: 0 0 30px;
+  color: #000;
+}
+
+.skills .skills-text {
+  margin-bottom: 1.5em;
+  font-family: Quicksand, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #000000b3;
+}
+.skills .progress-title {
+  font-size: 16px;
+  font-family: Quicksand, Arial, sans-serif;
+  font-weight: 400;
+  color: #000;
+  margin: 25px 0 0;
+}
+.skills .progress {
+  height: 6px;
+  box-shadow: none;
+  background: #f2f3f7;
+  overflow: visible;
+  font-family: Quicksand, sans-serif;
+}
+.skills .progress-bar {
+  position: relative;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #000;
+  font-weight: 600;
+  text-align: right;
+  overflow: visible;
+  border-radius: 8px;
+  float: left;
+  height: 100%;
+}
+
+.skills .progress-bar::before {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.skills .progress.progress.color-1 .progress-bar::before {
+  content: "75%";
+}
+
+.skills .progress-bar::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.skills .progress.color-1 .progress-bar::after {
+  background: #2c98f0;
+}
+
+.skills .progress.color-1 .progress-bar {
+  background: #2c98f0;
+  color: #2c98f0;
+}
+
+.skills .progress.progress.color-2 .progress-bar::before {
+  content: "85%";
+}
+
+.skills .progress.color-2 .progress-bar {
+  background: #f9bf3f;
+  color: #f9bf3f;
+}
+
+.skills .progress.color-2 .progress-bar::after {
+  background: #f9bf3f;
+}
+
+.skills .progress.color-3 .progress-bar::before {
+  content: "70%";
+}
+
+.skills .progress.color-3 .progress-bar {
+  color: #2fa499;
+  background: #2fa499;
+}
+
+.skills .progress.color-3 .progress-bar::after {
+  background: #2fa499;
+}
+
+.skills .progress.color-4 .progress-bar::before {
+  content: "60%";
+}
+
+.skills .progress.color-4 .progress-bar {
+  color: #ec5453;
+  background: #ec5453;
+}
+
+.skills .progress.color-4 .progress-bar::after {
+  background: #ec5453;
+}
+
+.skills .progress.color-5 .progress-bar::before {
+  content: "90%";
+}
+
+.skills .progress.color-5 .progress-bar {
+  color: #a84cb8;
+  background: #a84cb8;
+}
+
+.skills .progress.color-5 .progress-bar::after {
+  background: #a84cb8;
+}
+
+.skills .progress.color-6 .progress-bar::before {
+  content: "80%";
+}
+
+.skills .progress.color-6 .progress-bar {
+  color: #4054b2;
+  background: #4054b2;
+}
+.skills .progress.color-6 .progress-bar::after {
+  background: #4054b2;
+}
