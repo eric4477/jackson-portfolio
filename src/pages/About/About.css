@@ -1,0 +1,94 @@
+.about {
+  padding-left: 15% !important;
+  padding-right: 15% !important;
+}
+.about .subheading {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-family: Quicksand, sans-serif;
+}
+
+.about .heading {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+  margin: 0 0 30px;
+  color: #000;
+}
+
+.about .about-text {
+  margin-bottom: 1.5em;
+  font-family: Quicksand, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #000000b3;
+}
+
+.about .skills {
+  margin-bottom: 80px;
+  position: relative;
+  z-index: 0;
+  box-shadow: 0 0 56px -8px #0000002b;
+  height: 148px;
+  padding: 1.5em;
+}
+
+.about .skills span i {
+  font-size: 30px;
+}
+
+.about .skills h3 {
+  font-family: Quicksand, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 30px;
+  margin-top: 18px;
+}
+
+.about .skills.color-1 {
+  border-bottom: 2px solid #2c98f0;
+}
+
+.about .skills.color-1 span i {
+  color: #2c98f0;
+}
+
+.about .skills.color-2 {
+  border-bottom: 2px solid #ec5453;
+}
+
+.about .skills.color-2 span i {
+  color: #ec5453;
+}
+
+.about .skills.color-3 {
+  border-bottom: 2px solid #f9bf3f;
+}
+
+.about .skills.color-3 span i {
+  color: #f9bf3f;
+}
+
+.about .skills.color-4 {
+  border-bottom: 2px solid #a84cb8;
+}
+
+.about .skills.color-4 span i {
+  color: #a84cb8;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .about .skills {
+    padding: 0.5rem;
+  }
+}
