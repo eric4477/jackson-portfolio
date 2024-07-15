@@ -1,0 +1,139 @@
+.experience {
+  padding-left: 15% !important;
+  padding-right: 15% !important;
+}
+
+.experience .subheading {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-family: Quicksand, sans-serif;
+}
+
+.experience .heading {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+  margin: 0 0 30px;
+  color: #000;
+}
+.timeline {
+  list-style: none;
+  padding: 20px 0;
+  position: relative;
+}
+
+.timeline::before {
+  content: " ";
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  width: 3px;
+  background-color: #eee;
+  left: 3%;
+  margin-left: -1.5px;
+}
+
+.experience .timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline > li::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.timeline .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 3%;
+  margin-left: -25px;
+  box-shadow: 0 0 0 5px #f2f3f7;
+  z-index: 100;
+  border-radius: 50%;
+}
+
+.timeline li:first-child .timeline-badge {
+  background: #2c98f0;
+}
+
+.timeline li:nth-child(2) .timeline-badge {
+  background: #d9534f;
+}
+.timeline li:nth-child(3) .timeline-badge {
+  background: #f0ad4e;
+}
+
+.timeline .timeline-panel {
+  width: 92%;
+  float: right;
+  border-radius: 2px;
+  padding: 20px;
+  background-color: #f2f3f7;
+  position: relative;
+}
+
+.timeline .timeline-panel h2 {
+  font-size: 20px;
+  font-family: Quicksand, sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.timeline .timeline-panel h2 > a {
+  color: #000;
+  margin-right: 5px;
+}
+.timeline .timeline-panel h2 > span {
+  opacity: 0.5;
+  font-size: 16px;
+}
+
+.timeline .timeline-panel p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: Quicksand, sans-serif;
+  font-size: 15px;
+}
+
+.timeline .timeline-panel::after {
+  content: " ";
+  position: absolute;
+  top: 27px;
+  left: -12px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 0 solid #f2f3f7;
+  border-right: 14px solid #f2f3f7;
+  border-bottom: 14px solid transparent;
+}
+
+.timeline-badge-end {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 3%;
+  margin-left: -25px;
+  box-shadow: 0 0 0 5px #f2f3f7;
+  background: #fff;
+  z-index: 100;
+  border-radius: 50%;
+}
