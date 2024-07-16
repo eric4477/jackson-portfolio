@@ -24,7 +24,7 @@ function Experience() {
           </div>
         </li>
         <li>
-          <div className="timeline-badge">
+          <div className="timeline-badge bg-danger">
             <i className="fa-solid fa-pencil"></i>
           </div>
           <div className="timeline-panel">
@@ -41,7 +41,7 @@ function Experience() {
           </div>
         </li>
         <li>
-          <div className="timeline-badge">
+          <div className="timeline-badge bg-warning">
             <i className="fa-solid fa-pencil"></i>
           </div>
           <div className="timeline-panel">

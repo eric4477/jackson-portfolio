@@ -1,0 +1,152 @@
+.work {
+  padding-left: 15% !important;
+  padding-right: 15% !important;
+}
+
+.work .subheading {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-family: Quicksand, sans-serif;
+}
+
+.work .heading {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+  margin: 0 0 30px;
+  color: #000;
+}
+
+.work .nav-tabs {
+  border-bottom: none !important;
+}
+
+.work .nav-tabs button {
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.work .nav-tabs .nav-link {
+  color: #000;
+  border: none !important;
+  font-family: Quicksand, sans-serif;
+}
+.work .nav-tabs .nav-link:hover {
+  color: #2b77e9 !important;
+}
+.work .nav-tabs .nav-link.active {
+  color: #2b77e9 !important;
+}
+
+.work .project {
+  background-image: url("/work-img1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.work .project.two {
+  background-image: url("/work-img2.jpg");
+}
+
+.work .project.three {
+  background-image: url("/work-img3.jpg");
+}
+
+.work .project.four {
+  background-image: url("/work-img4.jpg");
+}
+
+.work .project.five {
+  background-image: url("/work-img5.jpg");
+}
+.work .project.six {
+  background-image: url("/work-img6.jpg");
+}
+
+.work .project .desc {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #2c98f0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.work .project .desc h3 {
+  font-family: Quicksand, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: transform 0.3s, opacity 0.3s;
+  margin-bottom: 15px;
+}
+
+.work .project:hover .desc {
+  opacity: 1;
+  visibility: visible;
+}
+
+.project .desc .con {
+  padding: 20px;
+  display: block;
+  position: relative;
+  height: 300px;
+}
+
+.project .desc .con h3 a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.project .desc .con .icons {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+
+.project .desc .con .icons span {
+  display: inline;
+  padding-right: 5px;
+  color: #ffffffb3;
+  font-size: 13px;
+  font-family: Quicksand, sans-serif;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.project .desc .con .icons span a {
+  color: #333;
+  padding: 5px 6px;
+  background: #ffffff80;
+  border-radius: 4px;
+  text-decoration: underline;
+}
+
+.project .desc .con .icons i {
+  font-size: 16px;
+}
+
+.work button {
+  font-family: Quicksand, sans-serif;
+}

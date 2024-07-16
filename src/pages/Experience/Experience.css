@@ -71,13 +71,6 @@
   background: #2c98f0;
 }
 
-.timeline li:nth-child(2) .timeline-badge {
-  background: #d9534f;
-}
-.timeline li:nth-child(3) .timeline-badge {
-  background: #f0ad4e;
-}
-
 .timeline .timeline-panel {
   width: 92%;
   float: right;
