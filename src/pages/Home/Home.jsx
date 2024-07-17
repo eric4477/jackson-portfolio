@@ -6,7 +6,7 @@ import SliderTwo from "../../components/SliderTwo/SliderTwo";
 function Home() {
   const sliderComponents = [SliderOne, SliderTwo];
   return (
-    <div className="home">
+    <div className="home ">
       <SliderContainer components={sliderComponents} />
     </div>
   );
