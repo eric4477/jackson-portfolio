@@ -6,9 +6,6 @@ This project is a dummy portfolio with the primary goal of implementing React ro
 
 - [Preview](#preview)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Components](#components)
 - [Technologies Used](#technologies-used)
 
 - ## Preview
