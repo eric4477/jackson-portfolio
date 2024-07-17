@@ -1,4 +1,4 @@
-# Dummy Portfolio Project
+# jackson-portfolio
 
 This project is a dummy portfolio with the primary goal of implementing React routing. It showcases how to navigate between different sections of a portfolio website using React Router.
 
